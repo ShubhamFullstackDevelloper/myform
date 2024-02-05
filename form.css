@@ -7,10 +7,12 @@ padding: 20px;}
 .bottom{
 background-color: red;
 border: 1px black dashed;
-
-
-
-
 }
 
-
+.cell{
+    background-color: yellowgreen;
+    color: black;
+}
+.cellone{
+    font-family:Montserrat ;
+}
