@@ -1,0 +1,48 @@
+.main-contaianer{
+    background-color: #D04848;
+    height:100%;
+    width: 100%;
+}
+.box-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FDE767;
+ 
+}
+.protest-riot-regular{
+    font-size: "Protest Riot", sans-serif;;
+    background-color: gray;
+     border-style: dashed;
+     border-width: 2%;
+}
+
+.cell-one{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.cell-two{
+    text-align: right;
+}
+/* media tag */
+@media( min-width:400){
+    .main-contaianer
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(min-width:600px) and (max-width:800px) {
+    .main-contaianer{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+}
+ 
