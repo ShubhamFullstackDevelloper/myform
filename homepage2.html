@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="./index.css" rel="stylesheet">
+    <style>
+        .main {
+            background-color: #F5E8DD;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .border {
+            background-color: #FBA834;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #C6A969;
+            text-align: center;
+        }
+
+        .chess {
+            height: 200px;
+            width: 280px;
+            margin-left: 10px;
+            border-radius: 20px;
+        }
+
+        .secondMain {
+            background-color: #53cf6a;
+            height: 200px;
+            width: 1425px;
+            border-style: solid;
+            border-color: crimson;
+        }
+
+        .ani {
+            color: #9195F6;
+            animation-name: my-animation;
+            animation-duration: 5s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 1;
+            text-align: center;
+        }
+
+        .calculetor {
+            height: 200px;
+            width: 280px;
+            border-radius: 20px;
+            margin-left: 10px;
+            margin-bottom: -3px;
+        }
+
+        .movie {
+            background-color: #F6995C;
+            height: 580px;
+            width: 800px;
+            border-radius: 20px;
+            margin-left: 310px;
+            margin-top: -450px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">  
+        <h1 class="box-one">❤️ MY HTML& CSS PROJECT</h1>
+        <h2 class="box-one"> Simple Portfolio Website using HTML CSS | Portfolio
+            Website Source code...|</h2>
+  
+        <hr size="2px" color="chartreuse">
+        <div style="background-color: #2D9596; height: 260px; width: 300px; border-radius: 20px;">
+            <h2>My Chess Board</h2>
+            <hr> 
+            <a href="chess.html"><img class="chess"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmr1jLxi3-Z3wiAySRArzE9VUhJ5jBXp7Aag&usqp=CAU"></a>
+        </div>
+        <div style="background-color: #2d949676; height: 260px; width: 300px; border-radius: 20px; margin-top: -10px; margin-bottom: 5px;">
+            <h2>Resume</h2>
+            <hr>
+            <a href="resume.html"><img style="border-radius: 20px; height: 190px; width: 290px; margin-left: 5px;" src="./images/RESUME.JPG"></a>
+        </div>
+        <div
+            style="background-color: #2D9596; height: 260px; width: 300px; float: right; margin-top: -540px; border-radius: 20px;">
+            <h2 style="margin-top: -2px;">My Calculater</h2>
+            <hr>
+            <a href="myCalculator.html"><img class="calculetor"
+                    src="data:image/jpeg;base64,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"></a>
+        </div>
+        <div class="movie">
+            <h2 style="color: #114232;">Best of Mine</h2>
+            <hr>
+            <a href="movie.html"><img style="border-radius: 20px;" src="./images/netflix.png"></a>
+        </div>
+        <div style="background-color: #2D9596; height: 260px; width: 300px; border-radius: 20px; margin-top: -160px;">
+            <h2>My Youtube Page</h2>
+            <hr>
+            <a href="./youtubepage.html"><img style="border-radius: 20px; height: 190px; width: 290px; margin-left: 5px;"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7fw-ro8BbmBEvz33_auxefLFyL8slYqKUJw&usqp=CAU"></a>
+        </div>
+        <div
+            style="background-color: #2D9596; height: 260px; width: 300px; float: right; border-radius: 20px; margin-top: -250px;">
+            <h2 style="margin-top: -3px;">My Form</h2>
+            <hr>
+            <a href="./formstart.html"><img style="margin-left: 10px; width: 280px; height: 190px; border-radius: 20px;"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIhELeF-vuJEV1hrcAL6uNJi24E5YkwpYlrQ&usqp=CAU"></a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

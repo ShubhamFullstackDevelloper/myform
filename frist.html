@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-cont {
+            background-color: grey;
+            height: 50vw;
+            width: 60vw;
+            margin-left: 20%;
+
+        }
+
+        .main { 
+            font-size: 25px;
+            background-color: forestgreen;
+            height: 200px;
+            width: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .sk {
+            height: 44px;
+            width: 60%;
+            margin-left: 20%;
+
+        }
+
+        .input {
+            height: 50px;
+            width: 60%;
+            margin-left: 20px;
+        }
+
+        button {
+            height: 50px;
+            width: 60%;
+            margin-left: 20px;
+            background-color: pink;
+        }
+    </style>
+
+
+    <script>
+        function displaytext() {
+            document.getElementById("input").value;
+            let text = "";
+            let i = 0;
+            while (i < 10) {
+                text += "hello " + i;
+                i++;
+            }
+            document.getElementById("display").innerHTML = text;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main-cont">
+        <div class="main" id="display"> </div>
+        <input type="number" class="input" id="input" onmousemove="displaymove()">
+
+        <button onmouseenter="displaytext()"> click me</button>
+
+
+    </div>
+</body>
+
+</html>
